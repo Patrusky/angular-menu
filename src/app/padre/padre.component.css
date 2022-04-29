@@ -1,0 +1,21 @@
+p {
+  font-family: Lato;
+}
+.container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.flecha {
+  background-color: rgb(109, 106, 103);
+  text-align: center;
+  color: white;
+}
+
+.basic {
+  grid-template-columns: 30px 1fr 1fr 1fr 1fr 30px;
+}
+
+.expert {
+  grid-template-columns: 30px 1fr 1fr 1fr 1fr 1fr 1fr 30px;
+}

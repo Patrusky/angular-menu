@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 100px 100px;
+}
+.container > .basic,
+.expert {
+  background-color: rgb(45, 88, 74);
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
